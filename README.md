@@ -281,15 +281,8 @@ choco install mpv
  * After installing disable the following: Start > Services > **Adobe Acrobat Update Service** = DISABLED
 
 ### Browsers
-* [Ungoogled Chromium v101](https://github.com/Nifury/ungoogled-chromium-binaries/releases/download/101.0.4951.64/ungoogled-chromium_101.0.4951.64-1.1_installer_x64.exe/) (FOSS) - chromium browser without Google's libraries, based on the Chromium engine [versions 100.0.4896.60 / 199.0.4844.82-1]
-  * as per: https://avoidthehack.com/manually-install-extensions-ungoogled-chromium#1downloadchromiumwebstore
-  * download https://github.com/NeverDecaf/chromium-web-store/releases
-  * change chrome://flags/#extension-mime-request-handling to "Always prompt for ins"
-  * change chrome://extensions to enable Developer mode
-  * drag the downloaded chromium webstore, install addons as per usual
-  * Bookmarks C: Users /AppData /Local /Chromium /User Data /Default /Bookmarks
 * [Vivaldi](https://vivaldi.com/download/) (Freeware) - customisable browser, based on the Chromium engine
-* [Google Chrome](https://www.google.com/chrome/thank-you.html) (Freeware) - made by Google, based on the Chromium engine
+* [Thorium](https://thorium.rocks/) (Freeware) - based on the Chromium engine
 
 #### Browser extensions
 * [UBlock Origin](https://github.com/gorhill/uBlock) (FOSS) - An efficient (ad) blocker for Chromium and Firefox
@@ -304,7 +297,7 @@ choco install mpv
 * [QBitTorrent](https://www.qbittorrent.org/download.php) - a bittorrent client
 
 
-## Programming
+## Programming package
 * [Pyhon + pip](https://www.python.org/downloads/windows/) (FOSS) - python with a software management solution
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - x86 AMD64/Intel64 full virtualization
 * [NodeJS](https://nodejs.org/en/download/) - a JavaScript runtime built on Chrome's V8 JavaScript engine
@@ -312,14 +305,18 @@ choco install mpv
 * [Anaconda3](https://www.anaconda.com/products/distribution#Downloads) - package / environment manager,  Python3 distribution with 1,500+ open source packages
 * [IntelliJ Idea](https://www.jetbrains.com/idea/) - for Java, with assistance for a variety of other languages such as SQL, JPQL, HTML, JavaScript
 * [WebStorm](https://www.jetbrains.com/webstorm/) - for JavaScript and related technologies
-* [Visual Studio Code](https://github.com/VSCodium/vscodium/releases/latest) (FOSS) - JavaScript, TypeScript, Node.js (C++, C#, Java, Python, PHP, Go, .NET, Unity)
+* [Visual Studio Codium](https://github.com/VSCodium/vscodium/releases/latest) (FOSS) - JavaScript, TypeScript, Node.js (C++, C#, Java, Python, PHP, Go, .NET, Unity)
 * [Eclipse](https://www.eclipse.org/downloads/packages/release) - oxygen release? - mainly for Java Integrated Development Environment
+* [Git for Windows](https://git-scm.com/download/win) - FOSS git app
+  * Optional [Tortoise GIT](https://tortoisegit.org/) - overlay icons showing the file status, a powerful context menu for Git
+* [WinMerge](https://winmerge.org/downloads/?lang=en) (FOSS) - differencing and merging tool for Windows
   
 ## Utilities
-* [DeepL](https://appdownload.deepl.com/windows/0install/DeepLSetup.exe) (Freeware) - Auto translate tool
+* Optional [DeepL](https://appdownload.deepl.com/windows/0install/DeepLSetup.exe) (Freeware) - Auto translate tool
 * [Freeplane](https://github.com/freeplane/freeplane/releases) (FOSS) - Tools for mind mapping
-* [PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/install) (Microsoft) - Usefull windows tools
-* [HWmonitor](https://www.cpuid.com/softwares/hwmonitor.html) (Shareware) - general purpose hardware monitoring program
+* Optional [PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/install) (Microsoft) - Usefull windows tools
+* Optional [HWmonitor](https://www.cpuid.com/softwares/hwmonitor.html) (Shareware) - general purpose hardware monitoring program
+* Optional [HwInfo64](https://www.hwinfo.com/download/) (Shareware) - in depth hardware monitoring program (cpu power states etc...)
 * [ffmpeg](https://ffmpeg.org/download.html) (FOSS) - command line multimedia framework (a complete, cross-platform solution to record, convert and stream audio and video)
   * ```
     choco install ffmpeg

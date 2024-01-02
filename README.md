@@ -7,11 +7,39 @@
 <img src="https://img.shields.io/github/license/marko-milasinovic/Windows10_Pro_Setup?style=flat-square">
 <img src="https://img.shields.io/github/directory-file-count/marko-milasinovic/Windows10_Pro_Setup?style=flat-square">
 </p>
----
-
-🔗 The provided links might be from GitHub, GitLab or Official website.
 
 ### Table of Contents
+- [Preparation](#preparation)
+  * [Windows system alterations](#windows-system-alterations)
+    + [Services](#services)
+    + [Disable Windows Updates](#disable-windows-updates)
+    + [Services to be disabled](#services-to-be-disabled)
+    + [Group policy](#group-policy)
+      - [Change GP settings to the following:](#change-gp-settings-to-the-following-)
+    + [Windows Firewall](#windows-firewall)
+    + [Windows features](#windows-features)
+  * [Task Scheduler](#task-scheduler)
+- [Program list](#program-list)
+  * [Common components](#common-components)
+  * [DefaultApplications](#defaultapplications)
+    + [Browsers](#browsers)
+      - [Browser extensions](#browser-extensions)
+  * [Intel drivers](#intel-drivers)
+  * [Security / Peer clients](#security---peer-clients)
+  * [Programming package](#programming-package)
+  * [Utilities](#utilities)
+  * [Communication](#communication)
+    + [File Explorer](#file-explorer)
+    + [Optional](#optional)
+    + [Optional](#optional-1)
+  * [Optional expansion hardware apps](#optional-expansion-hardware-apps)
+    + [Optional](#optional-2)
+    + [Optional](#optional-3)
+  * [Optional Image manipulation](#optional-image-manipulation)
+    + [Optional video software](#optional-video-software)
+- [Project milestones](#project-milestones)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ---
 # Preparation
@@ -241,6 +269,7 @@ Start > Task Scheduler > Task Scheduler Library:
 
 
 # Program list
+🔗 The provided links might be from GitHub, GitLab or Official website.
 Abbreviations: 
 * **FOSS** - Free and Open-Source Software
 * **Freeware** - software, most often proprietary, that is distributed at no monetary cost to the end user

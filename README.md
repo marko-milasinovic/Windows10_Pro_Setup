@@ -329,9 +329,9 @@ choco install mpv
 * [Intel's bluetooth driver](https://www.intel.com/content/www/us/en/support/articles/000005489/wireless/intel-wireless-products.html) <sup>`Freeware`</sup> - a bluetooth driver that works
 * [Intel's gpu driver](https://www.intel.com/content/www/us/en/support/products/80939/graphics.html) <sup>`Freeware`</sup> - For the specific gpu line
 
-## Security / Peer clients
+## File transfer / Security / Peer clients
 * [QBitTorrent](https://www.qbittorrent.org/download.php) - a bittorrent client
-
+* [WinScp](https://winscp.net/eng/download.php) - File transfer programm
 
 ## Programming package
 * [Pyhon + pip](https://www.python.org/downloads/windows/) <sup>`FOSS`</sup> - python with a software management solution
@@ -346,6 +346,7 @@ choco install mpv
 * [Git for Windows](https://git-scm.com/download/win) - FOSS git app
   * Optional [Tortoise GIT](https://tortoisegit.org/) - overlay icons showing the file status, a powerful context menu for Git
 * [WinMerge](https://winmerge.org/downloads/?lang=en) <sup>`FOSS`</sup> - differencing and merging tool for Windows
+* Optional [meldmerge](https://meldmerge.org/) <sup>`FOSS`</sup> - Visual diff and merge tool
   
 ## Utilities
 * Optional [DeepL](https://appdownload.deepl.com/windows/0install/DeepLSetup.exe) <sup>`Freeware`</sup> - Auto translate tool

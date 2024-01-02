@@ -46,6 +46,9 @@
 1) **Unplug the ethernet** cable before installing windows
 
 ## Windows system alterations
+
+* [7-taskbar-tweaker](https://ramensoftware.com/7-taskbar-tweaker) <sup>`Freeware`</sup> - Windows taskbar UI customizer
+
 ```
 View Advanced System Settings
 ```
@@ -292,8 +295,6 @@ choco install mpv
 * [Everything](https://www.voidtools.com/downloads/) <sup>`FOSS`</sup> - Universal search tool
 * [MPV - github](https://github.com/mpv-player/mpv) <sup>`FOSS`</sup> - optimised and simple media player | [Manual / wiki](https://mpv.io/manual/stable/#keyboard-control)
   * [MPV - chocolatey](https://community.chocolatey.org/packages/mpv)
-
-
 * [audacious](https://audacious-media-player.org/download) <sup>`FOSS`</sup> - A "winamp" style music player
 * Optional [AIMP](https://www.aimp.ru/?do=download&os=windows) <sup>`Freeware`</sup> - modern design Music player
 * Optional [qmmp](https://qmmp.ylsoftware.com/downloads.php) <sup>`Freeware`</sup> -
@@ -319,6 +320,10 @@ choco install mpv
 * [UBlock Origin](https://github.com/gorhill/uBlock) <sup>`FOSS`</sup> - An efficient (ad) blocker for Chromium and Firefox
 * [HTTPS Everywhere](https://www.eff.org/https-everywhere/) <sup>`FOSS`</sup> - encrypts your communications with many major websites
 * [ClearUrls](https://gitlab.com/KevinRoebert/ClearUrls) <sup>`FOSS`</sup> - based on the new WebExtensions technology, automatically removes tracking elements from URLs
+
+## Music software
+* [Audacity](https://www.audacityteam.org/) <sup>`FOSS`</sup> - Cross-platform software for recording and editing sounds
+* Optional [Exactaudiocopy](https://www.exactaudiocopy.de/en/index.php/resources/download/) <sup>`Freeware`</sup> - audio grabber for audio CDs using standard CD and DVD-ROM drives
 
 ## Intel drivers
 * [Intel's bluetooth driver](https://www.intel.com/content/www/us/en/support/articles/000005489/wireless/intel-wireless-products.html) <sup>`Freeware`</sup> - a bluetooth driver that works
@@ -418,21 +423,21 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer
 * [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) (Propriatery) - Microsoft's advanced monitoring tool that shows real-time file system, Registry and process/thread activity
 * [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) (Propriatery) - shows information about which handles and DLLs processes have opened or loaded
 * [Rufus](https://github.com/pbatard/rufus/releases) <sup>`FOSS`</sup> - USB Formatting Utility
-* [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (FOSS ?) - SSH, Telnet, and SFTP client, typically used for remote access to server computers over a network using the SSH protocol along with an xterm terminal emulator
+* [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) <sup>`FOSS`</sup> - SSH, Telnet, and SFTP client, typically used for remote access to server computers over a network using the SSH protocol along with an xterm terminal emulator
 * [ImDIsk](https://www.ltr-data.se/opencode.html/#ImDisk) <sup>`FOSS`</sup> - virtual disk driver
 
 * [Arduino](https://www.arduino.cc/en/software) <sup>`FOSS`</sup> - Arduino Software IDE
-* [Total Commander](https://www.ghisler.com/download.htm) (Shareware) - tried and true file manager
+* Optional [Total Commander](https://www.ghisler.com/download.htm) (Shareware) - tried and true file manager
 
 ## Optional expansion hardware apps
-* [Logitech G-Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) <sup>`Freeware`</sup> - propriatery Logitech software for peripherals
-* [Thunderbird](https://www.thunderbird.net/en-US/download/) - an E-Mail client
+* Optional [Logitech G-Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) <sup>`Freeware`</sup> - propriatery Logitech software for peripherals
+* Optional [Thunderbird](https://www.thunderbird.net/en-US/download/) <sup>`FOSS`</sup> - An E-Mail client
 
-### Optional
+### Optional vpn software
 * [WireGuard](https://www.wireguard.com/) - fast, secure vpn tunnel
 * [GNU Privacy Guard](https://gnupg.org/) - free implementation of the OpenPGP standard, that allows you to encrypt and sign your data and communications
 
-### Optional
+### Optional documentation software
 * [XWiki](https://xwiki.com/en/offerings/products/xwiki-standard) <sup>`FOSS`</sup> - WebServer wiki
 * [OpenCRX](https://github.com/opencrx/opencrx) <sup>`FOSS`</sup> - Customer relationship management software
 
@@ -440,7 +445,8 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer
 * [Paint.net](https://www.getpaint.net/doc/latest/InstallPDN.html) <sup>`Freeware`</sup> - raster graphics editor, developed on the.NET Framework
 
 ### Optional video software
-* [Handbrake](https://handbrake.fr/downloads.php)
+* [Kodi](https://kodi.tv/download/windows/) <sup>`FOSS`</sup> - Video entertainment center gui (remote playback)
+* [Handbrake](https://handbrake.fr/downloads.php) <sup>`FOSS`</sup> - Video transcoder
 * [Waifu2x Caffe](https://github.com/lltcggie/waifu2x-caffe/releases/latest) <sup>`FOSS`</sup> - image denoiser & upscaler (slow, best used with Nvidia GPU's)
   * [Intel OpenVino](https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_windows.html) - speeds up Waifu2x Caffe
   * [Waifu2x Vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan/) <sup>`FOSS`</sup> - image denoiser & upscaler (faster but less accurate)

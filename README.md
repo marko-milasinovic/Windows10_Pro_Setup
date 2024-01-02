@@ -7,17 +7,17 @@
 <img src="https://img.shields.io/github/license/marko-milasinovic/Windows10_Pro_Setup?style=flat-square">
 <img src="https://img.shields.io/github/directory-file-count/marko-milasinovic/Windows10_Pro_Setup?style=flat-square">
 </p>
+---
 
-# Requirements
-1) Windows 10 Pro x64 image / Windows 10 LTSC x64
+🔗 The provided links might be from GitHub, GitLab or Official website.
 
 ### Table of Contents
 
-
+---
 # Preparation
 1) **Unplug the ethernet** cable before installing windows
 
-# Windows system alterations
+## Windows system alterations
 ```
 View Advanced System Settings
 ```
@@ -255,73 +255,75 @@ Abbreviations:
  ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
-* [Chocolatey](https://chocolatey.org/install) (FOSS) - Software management solution
+* [Chocolatey](https://chocolatey.org/install) <sup>`FOSS`</sup> - Software management solution
 
 ```
 choco install mpv
 ```
-* [Everything](https://www.voidtools.com/downloads/) (FOSS) - Universal search tool
-* [MPV - github](https://github.com/mpv-player/mpv) (FOSS) - optimised and simple media player | [Manual / wiki](https://mpv.io/manual/stable/#keyboard-control)
+* [Everything](https://www.voidtools.com/downloads/) <sup>`FOSS`</sup> - Universal search tool
+* [MPV - github](https://github.com/mpv-player/mpv) <sup>`FOSS`</sup> - optimised and simple media player | [Manual / wiki](https://mpv.io/manual/stable/#keyboard-control)
   * [MPV - chocolatey](https://community.chocolatey.org/packages/mpv)
 
-* Optional [MPC-HC](https://mpc-hc.org/) (FOSS) - Extremely light-weight, open source media player for Windows
-* Optional [Clementine](https://github.com/clementine-player/Clementine/releases/latest) (FOSS) - A "winamp" style music player
-* [GreenShot](https://getgreenshot.org/downloads/) (FOSS) - A screenshot tool
-* [Calibre](https://calibre-ebook.com/dist/win64) (FOSS) - Ebook viewer & manager
-* Optional [qimgv](https://github.com/easymodo/qimgv/releases/latest) (FOSS) - Image viewer
-* [Image Glass](https://imageglass.org/release/imageglass-9-0-9-1230-49) (FOSS) - Image viewer
-* [Inkscape](https://gitlab.com/inkscape/inkscape) (FOSS) - vector image editor
-* [KeePass](https://keepass.info/download.html) (FOSS) - light-weight password manager
-* [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) (FOSS) - multifunctional code/text editor
+
+* [audacious](https://audacious-media-player.org/download) <sup>`FOSS`</sup> - A "winamp" style music player
+* Optional [AIMP](https://www.aimp.ru/?do=download&os=windows) <sup>`Freeware`</sup> - modern design Music player
+* Optional [qmmp](https://qmmp.ylsoftware.com/downloads.php) <sup>`Freeware`</sup> -
+* [GreenShot](https://getgreenshot.org/downloads/) <sup>`FOSS`</sup> - A screenshot tool
+* [Calibre](https://calibre-ebook.com/dist/win64) <sup>`FOSS`</sup> - Ebook viewer & manager
+* Optional [qimgv](https://github.com/easymodo/qimgv/releases/latest) <sup>`FOSS`</sup> - Image viewer
+* [Image Glass](https://imageglass.org/release/imageglass-9-0-9-1230-49) <sup>`FOSS`</sup> - Image viewer
+* [Inkscape](https://gitlab.com/inkscape/inkscape) <sup>`FOSS`</sup> - vector image editor
+* [KeePass](https://keepass.info/download.html) <sup>`FOSS`</sup> - light-weight password manager
+* [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest) <sup>`FOSS`</sup> - multifunctional code/text editor
 * [Revo Uninstaller](https://www.revouninstaller.com/start-freeware-download/) (Shareware) - advanced program uninstaller
 * [7-zip with Zstandard](https://github.com/mcmilk/7-Zip-zstd/releases/latest) - file archiver with additional functions (eg. hash verification)
-* [VLC](https://www.videolan.org/vlc/download-windows.html) (FOSS) - multimedia player and framework
+* [VLC](https://www.videolan.org/vlc/download-windows.html) <sup>`FOSS`</sup> - multimedia player and framework
   * You can config caching on Tools -> preferences (show settings "All") -> Input / Codecs. In Advanced option, define your preferences for caching.
-* [Adobe Reader](https://get.adobe.com/reader/download?os=Windows+10&name=Reader+DC+2022.002.20191+English+Windows%2864Bit%29&lang=en&nativeOs=Windows+10&accepted=&declined=mss%2Cmsc%2Ccr&preInstalled=&site=otherversions) (Freeware) - Propriatery pdf reader
+* [Adobe Reader](https://get.adobe.com/reader/download?os=Windows+10&name=Reader+DC+2022.002.20191+English+Windows%2864Bit%29&lang=en&nativeOs=Windows+10&accepted=&declined=mss%2Cmsc%2Ccr&preInstalled=&site=otherversions) <sup>`Freeware`</sup> - Propriatery pdf reader
  * After installing disable the following: Start > Services > **Adobe Acrobat Update Service** = DISABLED
 
 ### Browsers
-* [Vivaldi](https://vivaldi.com/download/) (Freeware) - customisable browser, based on the Chromium engine
-* [Thorium](https://thorium.rocks/) (Freeware) - based on the Chromium engine
+* [Vivaldi](https://vivaldi.com/download/) <sup>`Freeware`</sup> - customisable browser, based on the Chromium engine
+* [Thorium](https://thorium.rocks/) <sup>`Freeware`</sup> - based on the Chromium engine
 
 #### Browser extensions
-* [UBlock Origin](https://github.com/gorhill/uBlock) (FOSS) - An efficient (ad) blocker for Chromium and Firefox
-* [HTTPS Everywhere](https://www.eff.org/https-everywhere/) (FOSS) - encrypts your communications with many major websites
-* [ClearUrls](https://gitlab.com/KevinRoebert/ClearUrls) (FOSS) - based on the new WebExtensions technology, automatically removes tracking elements from URLs
+* [UBlock Origin](https://github.com/gorhill/uBlock) <sup>`FOSS`</sup> - An efficient (ad) blocker for Chromium and Firefox
+* [HTTPS Everywhere](https://www.eff.org/https-everywhere/) <sup>`FOSS`</sup> - encrypts your communications with many major websites
+* [ClearUrls](https://gitlab.com/KevinRoebert/ClearUrls) <sup>`FOSS`</sup> - based on the new WebExtensions technology, automatically removes tracking elements from URLs
 
 ## Intel drivers
-* [Intel's bluetooth driver](https://www.intel.com/content/www/us/en/support/articles/000005489/wireless/intel-wireless-products.html) (Freeware) - a bluetooth driver that works
-* [Intel's gpu driver](https://www.intel.com/content/www/us/en/support/products/80939/graphics.html) (Freeware) - For the specific gpu line
+* [Intel's bluetooth driver](https://www.intel.com/content/www/us/en/support/articles/000005489/wireless/intel-wireless-products.html) <sup>`Freeware`</sup> - a bluetooth driver that works
+* [Intel's gpu driver](https://www.intel.com/content/www/us/en/support/products/80939/graphics.html) <sup>`Freeware`</sup> - For the specific gpu line
 
 ## Security / Peer clients
 * [QBitTorrent](https://www.qbittorrent.org/download.php) - a bittorrent client
 
 
 ## Programming package
-* [Pyhon + pip](https://www.python.org/downloads/windows/) (FOSS) - python with a software management solution
+* [Pyhon + pip](https://www.python.org/downloads/windows/) <sup>`FOSS`</sup> - python with a software management solution
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - x86 AMD64/Intel64 full virtualization
 * [NodeJS](https://nodejs.org/en/download/) - a JavaScript runtime built on Chrome's V8 JavaScript engine
 * [XAMPP](https://www.apachefriends.org/download.html) - Apache distribution containing MariaDB, PHP, and Perl
 * [Anaconda3](https://www.anaconda.com/products/distribution#Downloads) - package / environment manager,  Python3 distribution with 1,500+ open source packages
 * [IntelliJ Idea](https://www.jetbrains.com/idea/) - for Java, with assistance for a variety of other languages such as SQL, JPQL, HTML, JavaScript
 * [WebStorm](https://www.jetbrains.com/webstorm/) - for JavaScript and related technologies
-* [Visual Studio Codium](https://github.com/VSCodium/vscodium/releases/latest) (FOSS) - JavaScript, TypeScript, Node.js (C++, C#, Java, Python, PHP, Go, .NET, Unity)
+* [Visual Studio Codium](https://github.com/VSCodium/vscodium/releases/latest) <sup>`FOSS`</sup> - JavaScript, TypeScript, Node.js (C++, C#, Java, Python, PHP, Go, .NET, Unity)
 * [Eclipse](https://www.eclipse.org/downloads/packages/release) - oxygen release? - mainly for Java Integrated Development Environment
 * [Git for Windows](https://git-scm.com/download/win) - FOSS git app
   * Optional [Tortoise GIT](https://tortoisegit.org/) - overlay icons showing the file status, a powerful context menu for Git
-* [WinMerge](https://winmerge.org/downloads/?lang=en) (FOSS) - differencing and merging tool for Windows
+* [WinMerge](https://winmerge.org/downloads/?lang=en) <sup>`FOSS`</sup> - differencing and merging tool for Windows
   
 ## Utilities
-* Optional [DeepL](https://appdownload.deepl.com/windows/0install/DeepLSetup.exe) (Freeware) - Auto translate tool
-* [Freeplane](https://github.com/freeplane/freeplane/releases) (FOSS) - Tools for mind mapping
+* Optional [DeepL](https://appdownload.deepl.com/windows/0install/DeepLSetup.exe) <sup>`Freeware`</sup> - Auto translate tool
+* [Freeplane](https://github.com/freeplane/freeplane/releases) <sup>`FOSS`</sup> - Tools for mind mapping
 * Optional [PowerToys](https://docs.microsoft.com/en-us/windows/powertoys/install) (Microsoft) - Usefull windows tools
 * Optional [HWmonitor](https://www.cpuid.com/softwares/hwmonitor.html) (Shareware) - general purpose hardware monitoring program
 * Optional [HwInfo64](https://www.hwinfo.com/download/) (Shareware) - in depth hardware monitoring program (cpu power states etc...)
-* [ffmpeg](https://ffmpeg.org/download.html) (FOSS) - command line multimedia framework (a complete, cross-platform solution to record, convert and stream audio and video)
+* [ffmpeg](https://ffmpeg.org/download.html) <sup>`FOSS`</sup> - command line multimedia framework (a complete, cross-platform solution to record, convert and stream audio and video)
   * ```
     choco install ffmpeg
     ```
-* [MKVToolNix](https://mkvtoolnix.download/downloads.html#windows) (FOSS) - gui for working with Matroska files [gitlab](https://gitlab.com/mbunkus/mkvtoolnix)
+* [MKVToolNix](https://mkvtoolnix.download/downloads.html#windows) <sup>`FOSS`</sup> - gui for working with Matroska files [gitlab](https://gitlab.com/mbunkus/mkvtoolnix)
   * ```
     choco install mkvtoolnix
     ```
@@ -355,7 +357,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer
 > Right-click on Explorer> New> DWORD (32-bit) Value. Rename it to DisableNotificationCenter.
 > Double-click on DisableNotificationCenter and change the value to 1.
 
-* [WinTweaker](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10) (Freeware) - Windows settings tweaker
+* [WinTweaker](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10) <sup>`Freeware`</sup> - Windows settings tweaker
 
 * Enable verbose status messages
 > HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
@@ -380,21 +382,21 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer
 
 
 ### Optional
-* [Tor](https://www.torproject.org/download/) (FOSS) - browser focused on anonymity and security, based on firefox
+* [Tor](https://www.torproject.org/download/) <sup>`FOSS`</sup> - browser focused on anonymity and security, based on firefox
 
 ### Optional
-* [Crystalmark](https://crystalmark.info/en/download/) (FOSS) - benchmark software that measures the transfer speed of media data storage
+* [Crystalmark](https://crystalmark.info/en/download/) <sup>`FOSS`</sup> - benchmark software that measures the transfer speed of media data storage
 * [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) (Propriatery) - Microsoft's advanced monitoring tool that shows real-time file system, Registry and process/thread activity
 * [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) (Propriatery) - shows information about which handles and DLLs processes have opened or loaded
-* [Rufus](https://github.com/pbatard/rufus/releases) (FOSS) - USB Formatting Utility
+* [Rufus](https://github.com/pbatard/rufus/releases) <sup>`FOSS`</sup> - USB Formatting Utility
 * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (FOSS ?) - SSH, Telnet, and SFTP client, typically used for remote access to server computers over a network using the SSH protocol along with an xterm terminal emulator
-* [ImDIsk](https://www.ltr-data.se/opencode.html/#ImDisk) (FOSS) - virtual disk driver
+* [ImDIsk](https://www.ltr-data.se/opencode.html/#ImDisk) <sup>`FOSS`</sup> - virtual disk driver
 
-* [Arduino](https://www.arduino.cc/en/software) (FOSS) - Arduino Software IDE
+* [Arduino](https://www.arduino.cc/en/software) <sup>`FOSS`</sup> - Arduino Software IDE
 * [Total Commander](https://www.ghisler.com/download.htm) (Shareware) - tried and true file manager
 
 ## Optional expansion hardware apps
-* [Logitech G-Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) (Freeware) - propriatery Logitech software for peripherals
+* [Logitech G-Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) <sup>`Freeware`</sup> - propriatery Logitech software for peripherals
 * [Thunderbird](https://www.thunderbird.net/en-US/download/) - an E-Mail client
 
 ### Optional
@@ -402,29 +404,34 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer
 * [GNU Privacy Guard](https://gnupg.org/) - free implementation of the OpenPGP standard, that allows you to encrypt and sign your data and communications
 
 ### Optional
-* [XWiki](https://xwiki.com/en/offerings/products/xwiki-standard) (FOSS) - WebServer wiki
-* [OpenCRX](https://github.com/opencrx/opencrx) (FOSS) - Customer relationship management software
+* [XWiki](https://xwiki.com/en/offerings/products/xwiki-standard) <sup>`FOSS`</sup> - WebServer wiki
+* [OpenCRX](https://github.com/opencrx/opencrx) <sup>`FOSS`</sup> - Customer relationship management software
 
 ## Optional Image manipulation 
-* [Paint.net](https://www.getpaint.net/doc/latest/InstallPDN.html) (Freeware) - raster graphics editor, developed on the.NET Framework
+* [Paint.net](https://www.getpaint.net/doc/latest/InstallPDN.html) <sup>`Freeware`</sup> - raster graphics editor, developed on the.NET Framework
 
 ### Optional video software
 * [Handbrake](https://handbrake.fr/downloads.php)
-* [Waifu2x Caffe](https://github.com/lltcggie/waifu2x-caffe/releases/latest) (FOSS) - image denoiser & upscaler (slow, best used with Nvidia GPU's)
+* [Waifu2x Caffe](https://github.com/lltcggie/waifu2x-caffe/releases/latest) <sup>`FOSS`</sup> - image denoiser & upscaler (slow, best used with Nvidia GPU's)
   * [Intel OpenVino](https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_windows.html) - speeds up Waifu2x Caffe
-  * [Waifu2x Vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan/) (FOSS) - image denoiser & upscaler (faster but less accurate)
+  * [Waifu2x Vulkan](https://github.com/nihui/waifu2x-ncnn-vulkan/) <sup>`FOSS`</sup> - image denoiser & upscaler (faster but less accurate)
 * [Waifu2x Extension GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/latest) video & image denoiser & upscaler with multiple algorithms
 
 * [Ruby - chocolatey](https://community.chocolatey.org/packages/ruby) 
 	```
 	choco install ruby
 	```
-  * [Other Video Transcoding](https://github.com/donmelton/other_video_transcoding) (FOSS) - highly efficient transcoding cli for h.264 to h.265
+  * [Other Video Transcoding](https://github.com/donmelton/other_video_transcoding) <sup>`FOSS`</sup> - highly efficient transcoding cli for h.264 to h.265
   	```
     gem install other_video_transcoding
     ```
 
+Archived
+* Not updated anymore [MPC-HC](https://mpc-hc.org/) <sup>`FOSS`</sup> - Extremely light-weight, open source media player for Windows
+* Not updated anymore [Clementine](https://github.com/clementine-player/Clementine/releases/latest) <sup>`FOSS`</sup> - A "winamp" style music player
 
+  
+---
 # Project milestones
 A list of changes to be implemented on a freshly installed windows system:
 
